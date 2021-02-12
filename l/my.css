@@ -1,0 +1,187 @@
+
+
+:root {
+  --backcolor: #121212;
+  --cardcolor: #1D1D1D;
+  --textnormalcolor: white;
+  --borderradius: 5px;
+  --imparweekbackcolor: red;
+  --accentcolor: #ccc;
+  --textlite: white;
+} 
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: var(--backcolor);
+}
+
+/* Style the header */
+header {
+  background-color: var(--cardcolor);
+  padding: 5px;
+  text-align: center;
+  font-size: 35px;
+  margin: 10px;
+  border-radius: var(--borderradius);
+  color: var(--textlite);
+}
+
+a:link, a:visited {
+  color: var(--textlite);
+  background-color: var(--backcolor);
+  margin-left: 6px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+a:hover, a:active {
+  text-decoration: underline var(--textlite);
+}
+#alerts {
+font-size: 15px;
+text-align: left;
+
+}
+.left-bar {width: 90%;
+color: var(--textlite);}
+.left-bar, .main{
+	background-color: var(--cardcolor);
+ 	border-radius: var(--borderradius);
+}
+
+.mid {
+	background-color: var(--backcolor);
+	margin: 10px;
+ 	border-radius: var(--borderradius);
+ 	padding: 0px;
+}
+
+/* Container for flexboxes */
+.flex-container {
+  display: -webkit-flex;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+/* Create three equal columns that sits next to each other */
+.flex-item-25 {
+  -webkit-flex: 25%;
+  -ms-flex: 25%;
+  flex: 25%;
+  padding: 10px;
+
+}
+/* Create three equal columns that sits next to each other */
+.flex-item-50 {
+  -webkit-flex: 50%;
+  -ms-flex: 50%;
+  flex: 50%;
+  padding: 10px;
+
+}
+
+/* Create three equal columns that sits next to each other */
+.flex-item-75 {
+  -webkit-flex: 75%;
+  -ms-flex: 75%;
+  flex: 75%;
+  padding: 10px;
+
+}
+
+table {
+
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+#marti, #joi, #vineri {
+	background-color: var(--backcolor);
+	color: var(--textlite);
+}
+#luni, #miercuri {
+	background-color: var(--backcolor);
+	color: var(--textlite);
+}
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+td:hover {
+  background-color: var(--backcolor);
+}
+td.impara {
+	text-decoration: underline red;
+}
+td.seminar {
+	border: solid 4px; 
+}
+
+
+/* Style the footer 
+tr:nth-child(even) {
+  background-color: #dddddd;
+}*/
+
+/* Style the footer */
+.footer {
+  margin: 10px;
+  background-color: var(--cardcolor);
+  padding: 10px;
+  text-align: center;
+}
+
+
+
+.accordion {
+  background-color: var(--backcolor);
+  color: var(--textlite);
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  transition: 0.4s;
+}
+
+.active, .accordion:hover {
+  background-color: var(--cardcolor);
+  color: var(--textlite);
+  border-left: solid 5px var(--textlite) 
+}
+
+.accordion:after {
+  content: '\002B';
+  color: var(--textlite);
+  font-weight: bold;
+  float: right;
+  margin-left: 5px;
+}
+
+.active:after {
+  content: "\2212";
+}
+
+.panel {
+  padding: 0 18px;
+  background-color: var(--backcolor);
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media (max-width: 600px) {
+  .flex-container, tr {
+    -webkit-flex-direction: column;
+    flex-direction: column;
+  }
+}

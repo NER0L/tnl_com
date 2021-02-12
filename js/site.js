@@ -1,0 +1,1 @@
+// Header auto slideshow script
