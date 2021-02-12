@@ -18,43 +18,7 @@
 <?php include 'en/php/header.php'?>
 
 
-<!-- About Section -->
-<div class="w3-container" style="padding:50px 16px" id="about">
-  <h3 class="w3-center">ABOUT THE COMPANY</h3>
-  <p class="w3-center">Trio Nova lex was created in order to research, develope and implement innovations in different areas.
 
-  regarding a variety off sectors, such as: Energy industry, 3D Printing, Bio-fuel, automatization of industrial processes, Artificial Intelligence, Drones, Virtual & Augmented Reality, Custom Computers assembling and much more...</p>
-  <h4 class="w3-center">We believe that new techonologies should be free in the 21-st century, </h4>
-  <p class="w3-center"></p>
-  <hr class="w3-center">
-  <p class="w3-center w3-large">Key sectors of our company</p>
-  <div class="w3-row-padding w3-center" style="margin-top:64px">
-    <div class="w3-quarter">
-      <i class="	fas fa-charging-station w3-margin-bottom w3-jumbo w3-center"></i>
-      <p class="w3-large">Energy</p>
-      <p>Energy is the primal key to evolution, the more energy you have, the more you can create.</p>
-      <p>We keep research on <b>Steam & Bio-fuel techonologies</b>, because our planet can't always provide us with carbohidrates.</p>
-    </div>
-    <div class="w3-quarter">
-      <i class="fas fa-dice-d20 w3-margin-bottom w3-jumbo"></i>
-      <p class="w3-large">Virtualizaton</p>
-      <p>New era of technology, brings up new way of comunnication.</p>
-      <p>Tired of Zoom meetings? Here is the new way of Meet. <b>Virtual & Augmented Reality.</b></p>
-    </div>
-    <div class="w3-quarter">
-      <i class="fas fa-laptop-code w3-margin-bottom w3-jumbo"></i>
-      <p class="w3-large">Custom PC's</p>
-      <p>You may order the tech that we have on the SHOP page, or request a new one, by contacting us.</p>
-      <p>We provide a wide range of customised <b>Computers, Notebooks, Sensors, Laboratory equipment</b>, for you or your corporation.</p>
-    </div>
-    <div class="w3-quarter">
-      <i class="fas fa-city w3-margin-bottom w3-jumbo"></i>
-      <p class="w3-large">Automatization</p>
-      <p>Form your industrial processes at the ease of LEGO assembling.</p>
-      <p>Modern way of <b>Modal production</b> and <b>3D printing</b>.</p>
-    </div>
-  </div>
-</div> <br>
 <hr>
 <!-- Promo Section - "We know design" 
 <div class="w3-container w3-light-grey" style="padding:128px 16px">
@@ -69,48 +33,6 @@
     </div>
   </div>
 </div>-->
-
-<!-- Projects Section -->
-<div class="w3-container" style="padding:50px 16px" id="team">
-  <h3 class="w3-center">Read More about our projects:</h3>
-  <p class="w3-center w3-large">Click here</p>
-  <div class="w3-row-padding w3-grayscale" style="margin-top:20px">
-    
-    <div class="w3-col l3 m6 w3-margin-bottom">
-      <div class="w3-card">
-        <img src="images/2.jpg" alt="John" style="width:100%">
-        <div class="w3-container">
-          <h3>New Rotor engine</h3>
-          <p class="w3-opacity">Steam Energy</p>
-          <p>Presenting you our new steam rotor engine. High efficient and power is already here.</p>
-          <p><button class="w3-button w3-light-grey w3-block"><i class="fa fa-envelope"></i> Contact</button></p>
-        </div>
-      </div>
-    </div>
-
-    <div class="w3-col l3 m6 w3-margin-bottom">
-      <div class="w3-card">
-        <img src="images/2.jpg" alt="Jane" style="width:100%">
-        <div class="w3-container">
-          <h3>Tricopters</h3>
-          <p class="w3-opacity">Drones</p>
-          <p>Meet our futuristic tricpoter model. Fast, lightweight and 30% more efficient.</p>
-          <p><button class="w3-button w3-light-grey w3-block"><i class="fa fa-envelope"></i> Contact</button></p>
-        </div>
-      </div>
-    </div>
-
-    <div class="w3-col l3 m6 w3-margin-bottom">
-      <div class="w3-card">
-        <img src="images/2.jpg" alt="Mike" style="width:100%">
-        <div class="w3-container">
-          <h3>Bio-Gas Station</h3>
-          <p class="w3-opacity">Bio-fuel & Energy</p>
-          <p>High proficiency methods. Only regenerable sources of energy are allowed.</p>
-          <p><button class="w3-button w3-light-grey w3-block"><i class="fa fa-envelope"></i> Contact</button></p>
-        </div>
-      </div>
-    </div>
 
 
     
