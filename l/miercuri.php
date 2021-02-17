@@ -44,8 +44,8 @@
             <td>15:15</td>
             <td>16:45</td>
             <td>Drept Financiar</td>
-            <td>O. Televea</td>
-            <td></td>      
+            <td>O. Televca</td>
+            <td><a href="https://meet.google.com/qea-xwmv-dub">Meet</a></td>      
         </tr>
         <tr>
             <td>6</td>

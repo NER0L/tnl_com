@@ -17,8 +17,8 @@
 <?php include 'en/php/nav.php'?>
 <?php include 'en/php/header.php'?>
 
-
-
+<div class=""></div>
+<div class="amd"></div>
 <hr>
 <!-- Promo Section - "We know design" 
 <div class="w3-container w3-light-grey" style="padding:128px 16px">
