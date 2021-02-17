@@ -37,7 +37,7 @@
             <td>15:00</td>
             <td>Drept Civil. Teoria Generală a obligațiilor.</td>
             <td>Octavian Cazac</td>
-            <td><a href="https://us02web.zoom.us/j/85069467937?pwd=T2VjdDk5NGdOR291c0lyWnI1NkVmdz09">Zoom</a></td>   
+            <td><a href="https://us02web.zoom.us/j/82679363160?pwd=TGEyTEdxUEVLUWtJeTYyTnJLMEkzQT09">Zoom</a></td>   
         </tr>
         <tr>
             <td>5</td>
